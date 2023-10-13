@@ -22,6 +22,7 @@ skip = 0
 for page_index in range(0, 3):
   print(f"Page {page_index + 1}:")
   results = collection.find({}, skip=skip, limit=page_size)
+  # Add a breakpoint here to page through results
   for r in results:
     print(r)
   print()

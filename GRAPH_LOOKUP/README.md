@@ -11,10 +11,10 @@ collections and optionally perform deletions on created array elements
 will delete the collections if they already exist)
 2. Connect to your MongoDB instance via Compass or mongosh and use the
 demo-graph-lookup database
-1. Copy the aggregation pipeline from 02a_products_instruments_graph_lookup.js
+3. Copy the aggregation pipeline from 02a_products_instruments_graph_lookup.js
 and run it against the graph-products collection, this will $out results into a
 3rd collection, graph-mat-view
-1. (Optional) Run 03_delete_from_array.py to delete matching elements from the
+4. (Optional) Run 03_delete_from_array.py to delete matching elements from the
 instruments array in the graph-mat-view collection
 
 ## Notes
@@ -23,6 +23,8 @@ Compare 02b_products_instruments_lookup.js to see the equivalent $lookup syntax
 
 ## Documentation
 
-[$graphLookup](https://www.mongodb.com/docs/manual/reference/operator/aggregation/graphLookup/)
-[$lookup](https://www.mongodb.com/docs/manual/reference/operator/aggregation/lookup/)
+[$graphLookup](https://www.mongodb.com/docs/manual/reference/operator/aggregation/graphLookup/)  
+
+[$lookup](https://www.mongodb.com/docs/manual/reference/operator/aggregation/lookup/)  
+
 [$pull](https://www.mongodb.com/docs/manual/reference/operator/update/pull/)

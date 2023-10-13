@@ -31,5 +31,5 @@ def yield_rows(cursor, chunk_size):
 
 chunks = yield_rows(results, page_size)
 for chunk in chunks:
-    # do processing here
+    # Add a breakpoint here to page through results
     pass

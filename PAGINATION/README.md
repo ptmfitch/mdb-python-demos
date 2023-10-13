@@ -12,6 +12,8 @@ delete the collections if they already exist)
 2. Run pagination_cursor.py or pagination_skip_limit.py to test pagination
 3. (Optional) Add breakpoints in either script and debug to test further
 
-## Documentation
+## Further Reading
 
 [Pagination Deep Dive Blog](https://engage.so/blog/a-deep-dive-into-offset-and-cursor-based-pagination-in-mongodb/)
+
+[Parallel Aggregations Repo](https://github.com/pkdone/mongo-parallel-agg)

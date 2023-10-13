@@ -11,16 +11,16 @@ Library of simple MongoDB demos using Python
 - (Windows) `py -m pip install -r requirements.txt`
 4. Spin up a local or cloud version of [MongoDB](https://www.mongodb.com/docs/manual/installation/)
 
-## Demos
+## Demos  
 
-### CHANGE_STREAMS
+[**CHANGE_STREAMS**](/CHANGE_STREAMS/)  
 Example showing how to watch a collection for any inserts, updates, deletes, etc.
 
-### GRAPH_LOOKUP
+[**GRAPH_LOOKUP**](/GRAPH_LOOKUP/)    
 Example showing how to join documents across 2 collections
 
-### PAGINATION
+[**PAGINATION**](/PAGINATION/)    
 Example showing how to batch results by setting a page size
 
-### XML_TO_JSON
+[**XML_TO_JSON**](/XML_TO_JSON/)    
 Example showing how to convert from XML to JSON
